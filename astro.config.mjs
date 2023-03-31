@@ -1,4 +1,14 @@
 import { defineConfig } from 'astro/config';
+import deno from "@astrojs/deno";
+
+import tailwind from "@astrojs/tailwind";
+import react from "@astrojs/react";
+import prefetch from "@astrojs/prefetch";
+import image from "@astrojs/image";
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  output: "server",
+  adapter: deno(),
+  integrations: [tailwind(), react(), prefetch(), image()]
+});
