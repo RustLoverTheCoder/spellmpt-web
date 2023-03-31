@@ -1,10 +1,8 @@
-import {} from "react";
-import { Header } from "../header";
+import HomeLayout from "../layout/HomeLayout";
 
-const Home = () => {
+const page = () => {
   return (
-    <div className="w-full h-full">
-      <Header />
+    <HomeLayout>
       <main>
         <section className="px-4 md:px-0 py-12 md:pt-36 mt:pb-10">
           <div className="md:max-w-4xl lg:max-w-7xl text-center mx-auto w-11/12 mb-10">
@@ -25,8 +23,8 @@ const Home = () => {
           </div>
         </section>
       </main>
-    </div>
+    </HomeLayout>
   );
 };
 
-export default Home;
+export default page;
