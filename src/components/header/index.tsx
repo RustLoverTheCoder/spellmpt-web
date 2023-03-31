@@ -27,7 +27,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a
-              className="relative hover:no-underline w-12 flex items-center font-semibold"
+              className="relative hover:no-underline w-auto flex items-center font-semibold text-xl"
               href="/"
             >
               Spellmpt
