@@ -1,4 +1,5 @@
 import HomeLayout from "../layout/HomeLayout";
+import "../global.css";
 
 const page = () => {
   return (

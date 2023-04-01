@@ -23,7 +23,7 @@ export const Header = () => {
   ];
   return (
     <div className="sticky top-0 z-50">
-      <header className="p-4 md:px-6 bg-zinc-100 dark:bg-zinc-900 backdrop-blur-sm bg-opacity-75 border-b border-[#E4E4E7] dark:border-[#3F3F46]">
+      <header className="p-4 md:px-6 bg-zinc-100 dark:bg-zinc-900 backdrop-blur-sm bg-opacity-75 border-b tbc">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a
