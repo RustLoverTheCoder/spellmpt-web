@@ -1,9 +1,12 @@
 import HomeLayout from "../layout/HomeLayout";
+import { SearchSection } from "../SearchSection";
 
 const page = () => {
   return (
     <HomeLayout>
-      <main></main>
+      <main>
+        <SearchSection type="Midjourney" />
+      </main>
     </HomeLayout>
   );
 };
