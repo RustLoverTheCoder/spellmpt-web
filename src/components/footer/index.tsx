@@ -75,14 +75,14 @@ export const Footer = () => {
           </div>
           {list.map((item) => {
             return (
-              <div className="mb-4 md:mb-0">
+              <div className="mb-4 md:mb-0" key={item.name}>
                 <h5 className="text-black font-medium mb-2 dark:text-white">
                   {item.name}
                 </h5>
                 <ul>
                   {item.children.map((child) => {
                     return (
-                      <li>
+                      <li key={child.name}>
                         <a
                           className="hover:text-indigo-600 text-zinc-800 transition-colors font-light dark:text-zinc-400 text-sm"
                           target="_blank"

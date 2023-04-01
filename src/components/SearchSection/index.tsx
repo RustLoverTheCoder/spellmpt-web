@@ -9,12 +9,13 @@ export const SearchSection = ({ type }: { type: string }) => {
           搜索最好的{type}提示来获取关于您的咒语prompt
         </h2>
         <div className="mt-10 md:flex items-center max-w-lg mx-auto">
-          <a
-            href="/explore"
-            className="inline-flex items-center justify-center btn w-full text-center mb-4  md:w-auto md:mx-auto btn-primary"
-          >
-            Start for Free
-          </a>
+          <form className="w-full relative">
+            <input
+              type="text"
+              placeholder="搜索咒语Prompt"
+              className="input w-full max-w-lg p-4 placeholder-zinc-400 bg-white dark:bg-zinc-800 rounded-md appearance-none text-sm"
+            />
+          </form>
         </div>
       </div>
     </section>
