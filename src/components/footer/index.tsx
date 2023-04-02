@@ -65,7 +65,7 @@ export const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-zinc-100 py-8 md:py-20 border-t dark:bg-zinc-900 tbc">
+    <footer className="bg-zinc-100 py-8 md:py-20 border-t dark:bg-zinc-900 tbc px-6 sm:px-0">
       <div className="container mx-auto">
         <div className="md:grid md:grid-cols-4">
           <div className="mb-6 md:mb-0">
