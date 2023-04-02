@@ -13,7 +13,7 @@ export const SearchSection = ({ type }: { type: string }) => {
             <input
               type="text"
               placeholder="搜索咒语Prompt"
-              className="input w-full max-w-lg p-4 placeholder-zinc-400 bg-white dark:bg-zinc-800 rounded-md appearance-none text-sm"
+              className="input w-full max-w-lg p-4 placeholder-zinc-400 bg-white dark:bg-zinc-800 rounded-md appearance-none text-sm input-primary border-transparent"
             />
           </form>
         </div>

@@ -1,5 +1,7 @@
 ---
 import Page from "../components/dalle";
+import { ImageSection } from "../components/ImageList/section";
+import HomeLayout from "../components/layout/HomeLayout";
 ---
 
 <html lang="en">
@@ -11,6 +13,9 @@ import Page from "../components/dalle";
     <title>Astro</title>
   </head>
   <body>
-    <Page />
+    <HomeLayout>
+      <Page />
+      <ImageSection client:only='react' />
+    </HomeLayout>
   </body>
 </html>

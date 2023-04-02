@@ -1,5 +1,6 @@
 ---
 import Page from "../components/chatgpt";
+import HomeLayout from "../components/layout/HomeLayout";
 ---
 
 <html lang="en">
@@ -11,6 +12,8 @@ import Page from "../components/chatgpt";
     <title>Astro</title>
   </head>
   <body>
-    <Page />
+    <HomeLayout>
+      <Page />
+    </HomeLayout>
   </body>
 </html>
