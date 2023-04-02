@@ -1,4 +1,5 @@
 ---
+import { SEO } from "astro-seo";
 import { ImageSection } from "../components/ImageList/section";
 import HomeLayout from "../components/layout/HomeLayout";
 import Page from "../components/stableDiffusion";
@@ -6,16 +7,86 @@ import Page from "../components/stableDiffusion";
 
 <html lang="en">
   <head>
+    <SEO
+      title="AI咒语Prompt"
+      description="集合，分享AI prpmpt，让AI咒语更有趣"
+      extend={{
+        link: [{ rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+        meta: [
+          {
+            name: "keywords",
+            content: "ai,咒语,prompt,ai咒语,ai prompt,ai咒语prompt",
+          },
+          {
+            name: "viewport",
+            content:
+              "width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0",
+          },
+          {
+            name: "apple-mobile-web-app-capable",
+            content: "yes",
+          },
+          {
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "black",
+          },
+          {
+            name: "format-detection",
+            content: "telephone=no",
+          },
+          {
+            name: "msapplication-tap-highlight",
+            content: "no",
+          },
+          {
+            name: "x5-fullscreen",
+            content: "true",
+          },
+          {
+            name: "x5-page-mode",
+            content: "app",
+          },
+          {
+            name: "x5-orientation",
+            content: "portrait",
+          },
+          {
+            name: "screen-orientation",
+            content: "portrait",
+          },
+          {
+            name: "full-screen",
+            content: "yes",
+          },
+          {
+            name: "browsermode",
+            content: "application",
+          },
+          {
+            name: "theme-color",
+            content: "#ffffff",
+          },
+          {
+            name: "msapplication-TileColor",
+            content: "#ffffff",
+          },
+          {
+            name: "msapplication-TileImage",
+            content: "/favicon.svg",
+          },
+          {
+            name: "generator",
+            content: Astro.generator,
+          },
+        ],
+      }}
+    />
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
   </head>
   <body>
     <HomeLayout>
       <Page />
-      <ImageSection client:only='react' />
+      <ImageSection client:only="react" />
     </HomeLayout>
   </body>
 </html>
