@@ -2,7 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/deno': ^4.1.0
-  '@astrojs/image': ^0.16.3
   '@astrojs/markdoc': ^0.1.0
   '@astrojs/prefetch': ^0.2.1
   '@astrojs/react': ^2.1.0
@@ -20,7 +19,6 @@ specifiers:
 
 dependencies:
   '@astrojs/deno': registry.npmmirror.com/@astrojs/deno/4.1.0_astro@2.1.8
-  '@astrojs/image': registry.npmmirror.com/@astrojs/image/0.16.3_astro@2.1.8
   '@astrojs/markdoc': registry.npmmirror.com/@astrojs/markdoc/0.1.0_7tnvcy4nhbadbj2mculwmt6wza
   '@astrojs/prefetch': registry.npmmirror.com/@astrojs/prefetch/0.2.1
   '@astrojs/react': registry.npmmirror.com/@astrojs/react/2.1.0_a5pki22omvhg66elofc4io3beq
@@ -37,12 +35,6 @@ dependencies:
   tailwindcss: registry.npmmirror.com/tailwindcss/3.3.1
 
 packages:
-
-  registry.npmmirror.com/@altano/tiny-async-pool/1.0.2:
-    resolution: {integrity: sha512-qQzaI0TBUPdpjZ3qo5b2ziQY9MSNpbziH2ZrE5lvtUZL+kn9GwVuVJwoOubaoNkeDB+rqEefnpu1k+oMpOCYiw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@altano/tiny-async-pool/-/tiny-async-pool-1.0.2.tgz}
-    name: '@altano/tiny-async-pool'
-    version: 1.0.2
-    dev: false
 
   registry.npmmirror.com/@ampproject/remapping/2.2.0:
     resolution: {integrity: sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@ampproject/remapping/-/remapping-2.2.0.tgz}
@@ -76,27 +68,6 @@ packages:
     dependencies:
       astro: registry.npmmirror.com/astro/2.1.8
       esbuild: registry.npmmirror.com/esbuild/0.15.18
-    dev: false
-
-  registry.npmmirror.com/@astrojs/image/0.16.3_astro@2.1.8:
-    resolution: {integrity: sha512-uBs9rKF03jckd0SlNU06PZU8L+WdDCjbvkrsF4QXlArhGExPi5rQi7UVquJFMEQZsVrNxY4mj8M6KBhggXO0Ug==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@astrojs/image/-/image-0.16.3.tgz}
-    id: registry.npmmirror.com/@astrojs/image/0.16.3
-    name: '@astrojs/image'
-    version: 0.16.3
-    peerDependencies:
-      astro: ^2.1.8
-      sharp: '>=0.31.0'
-    peerDependenciesMeta:
-      sharp:
-        optional: true
-    dependencies:
-      '@altano/tiny-async-pool': registry.npmmirror.com/@altano/tiny-async-pool/1.0.2
-      astro: registry.npmmirror.com/astro/2.1.8
-      http-cache-semantics: registry.npmmirror.com/http-cache-semantics/4.1.1
-      image-size: registry.npmmirror.com/image-size/1.0.2
-      kleur: registry.npmmirror.com/kleur/4.1.5
-      magic-string: registry.npmmirror.com/magic-string/0.27.0
-      mime: registry.npmmirror.com/mime/3.0.0
     dev: false
 
   registry.npmmirror.com/@astrojs/language-server/0.28.3:
@@ -2620,12 +2591,6 @@ packages:
     version: 2.0.1
     dev: false
 
-  registry.npmmirror.com/http-cache-semantics/4.1.1:
-    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz}
-    name: http-cache-semantics
-    version: 4.1.1
-    dev: false
-
   registry.npmmirror.com/human-signals/3.0.1:
     resolution: {integrity: sha512-rQLskxnM/5OCldHo+wNXbpVgDn5A17CUoKX+7Sokwaknlq7CdSnphy0W39GU8dw59XiCXmFXDg4fRuckQRKewQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/human-signals/-/human-signals-3.0.1.tgz}
     name: human-signals
@@ -2637,16 +2602,6 @@ packages:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ieee754/-/ieee754-1.2.1.tgz}
     name: ieee754
     version: 1.2.1
-    dev: false
-
-  registry.npmmirror.com/image-size/1.0.2:
-    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/image-size/-/image-size-1.0.2.tgz}
-    name: image-size
-    version: 1.0.2
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-    dependencies:
-      queue: registry.npmmirror.com/queue/6.0.2
     dev: false
 
   registry.npmmirror.com/import-meta-resolve/2.2.2:
@@ -3963,14 +3918,6 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
     version: 1.2.3
-    dev: false
-
-  registry.npmmirror.com/queue/6.0.2:
-    resolution: {integrity: sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/queue/-/queue-6.0.2.tgz}
-    name: queue
-    version: 6.0.2
-    dependencies:
-      inherits: registry.npmmirror.com/inherits/2.0.4
     dev: false
 
   registry.npmmirror.com/quick-lru/5.1.1:
