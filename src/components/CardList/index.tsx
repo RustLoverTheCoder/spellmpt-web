@@ -48,7 +48,7 @@ export const CardList = () => {
   return (
     <div className="w-full h-auto md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6">
       {list.map((item) => {
-        return <Card {...item} />;
+        return <Card key={item?.title} {...item} />;
       })}
     </div>
   );
